@@ -1,0 +1,6 @@
+git config --global user.name "Rosmontis" 配置用户名
+git config --global user.email "1975088122@qq.com" 配置邮箱
+ssh-keygen -t rsa -C "1975088122@qq.com" 配置密钥
+git init 初始化仓库，开始记录代码版本
+git add 文件名 添加文件到暂存区
+git commit -m"提交说明" 提交到本地仓库
