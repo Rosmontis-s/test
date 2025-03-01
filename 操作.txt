@@ -4,3 +4,11 @@ ssh-keygen -t rsa -C "1975088122@qq.com" 配置密钥
 git init 初始化仓库，开始记录代码版本
 git add 文件名 添加文件到暂存区
 git commit -m"提交说明" 提交到本地仓库
+git remote add origin https://github.com/Rosmontis-s/test.git 为本地仓库添加一个名为origin的远程仓库地址，使两者可以进行交互
+git push -u origin main 将文件推送到远程仓库
+git clone 仓库地址 下载别人的代码到本地
+git branch 查看所有分支
+git branch 分支名 创建新分支
+git checkout 分支名 切换到分支
+git log 看提交履历
+git merge 把不同分支的内容合并到主线
